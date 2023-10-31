@@ -1,10 +1,15 @@
 # Random User Info Generator
-
-This script generates random user information, including a first name, last name, email address, and date of birth (DOB).
+This repository contains two scripts that generate random user information, including a first name, last name, email address, and date of birth (DOB).
 
 ## Prerequisites
 
 - Python 3.x
+- `requests` library (for `random_generator_api.py`)
+
+To install the `requests` library, run:
+
+```bash
+pip3 install requests
 
 ## Setup
 
@@ -17,3 +22,6 @@ Run the script using the following command:
 
 ```bash
 python3 random_generator.py
+
+```bash
+python3 random_generator_api.py
